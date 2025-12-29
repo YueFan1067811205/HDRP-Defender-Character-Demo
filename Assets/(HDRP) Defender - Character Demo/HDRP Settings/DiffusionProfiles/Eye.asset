@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2686e09ec7aef44bad2843e4416f057, type: 3}
   m_Name: Eye
   m_EditorClassIdentifier: 
-  m_Version: 1
   profile:
-    scatteringDistance: {r: 0.8962264, g: 0.6975761, b: 0.51998043, a: 1}
+    scatteringDistance: {r: 0.7490196, g: 0.582998, b: 0.43457273, a: 1}
+    scatteringDistanceMultiplier: 1.1965326
     transmissionTint: {r: 0.8584906, g: 0.71373385, b: 0.61957103, a: 1}
     texturingMode: 0
     transmissionMode: 0
@@ -22,3 +22,4 @@ MonoBehaviour:
     worldScale: 1
     ior: 1.36
     hash: 1079329787
+  m_Version: 2
