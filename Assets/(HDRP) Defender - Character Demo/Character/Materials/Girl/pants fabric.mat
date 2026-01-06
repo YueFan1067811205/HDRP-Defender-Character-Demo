@@ -28,7 +28,9 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _BASE_UV_CHANNEL_UV0
   - _DISABLE_SSR_TRANSPARENT
+  - _THREAD_UV_CHANNEL_UV0
   m_InvalidKeywords: []
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
@@ -220,6 +222,7 @@ Material:
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
     - _Anisotropy: -0.55
+    - _BASE_UV_CHANNEL: 0
     - _BlendMode: 0
     - _BumpScale: 1
     - _CoatCoverage: 1
@@ -260,6 +263,7 @@ Material:
     - _DoubleSidedNormalMode: 2
     - _Drag: 1
     - _DstBlend: 0
+    - _DstBlend2: 0
     - _EmissionScaleUI: 1
     - _EmissiveColorMode: 1
     - _EmissiveExposureWeight: 1
@@ -317,6 +321,7 @@ Material:
     - _PPDPrimitiveWidth: 1
     - _Parallax: 0.02
     - _PerPixelDisplacementObjectScale: 1
+    - _PerPixelSorting: 0
     - _PlaneReflectionBumpClamp: 0.05
     - _PlaneReflectionBumpScale: 0.4
     - _PreRefractionPass: 0
@@ -361,6 +366,7 @@ Material:
     - _SubsurfaceRadius: 0.07
     - _SupportDecals: 1
     - _SurfaceType: 0
+    - _THREAD_UV_CHANNEL: 0
     - _TexWorldScale: 1
     - _TexWorldScaleEmissive: 1
     - _Thickness: 0.265
@@ -419,6 +425,7 @@ Material:
     - _uvThreadMask: {r: 1, g: 0, b: 0, a: 0}
     - _uvThreadST: {r: 40, g: 40, b: 0, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!114 &603744544630236898
 MonoBehaviour:
   m_ObjectHideFlags: 11

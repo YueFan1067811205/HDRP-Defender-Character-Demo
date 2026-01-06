@@ -43,7 +43,9 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _BASE_UV_CHANNEL_UV0
   - _DISABLE_SSR_TRANSPARENT
+  - _THREADS_UV_CHANNEL_UV0
   m_InvalidKeywords: []
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
@@ -235,6 +237,7 @@ Material:
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
     - _Anisotropy: 0
+    - _BASE_UV_CHANNEL: 0
     - _BlendMode: 0
     - _BumpScale: 1
     - _CoatCoverage: 1
@@ -251,6 +254,7 @@ Material:
     - _DetailSmoothnessScale: 0
     - _DiffusionProfile: 0
     - _DiffusionProfileHash: 2.3397393
+    - _Diffusion_Profile: 3.4884546
     - _DisplacementLockObjectScale: 1
     - _DisplacementLockTilingScale: 1
     - _DisplacementMode: 0
@@ -275,6 +279,7 @@ Material:
     - _DoubleSidedNormalMode: 2
     - _Drag: 1
     - _DstBlend: 0
+    - _DstBlend2: 0
     - _EmissionScaleUI: 1
     - _EmissiveColorMode: 1
     - _EmissiveExposureWeight: 1
@@ -332,6 +337,7 @@ Material:
     - _PPDPrimitiveWidth: 1
     - _Parallax: 0.02
     - _PerPixelDisplacementObjectScale: 1
+    - _PerPixelSorting: 0
     - _PlaneReflectionBumpClamp: 0.05
     - _PlaneReflectionBumpScale: 0.4
     - _PreRefractionPass: 0
@@ -376,6 +382,7 @@ Material:
     - _SubsurfaceRadius: 0.07
     - _SupportDecals: 1
     - _SurfaceType: 0
+    - _THREADS_UV_CHANNEL: 0
     - _TexWorldScale: 1
     - _TexWorldScaleEmissive: 1
     - _Thickness: 0.265
@@ -412,6 +419,7 @@ Material:
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 0.23073155, g: 0.47167897, b: 0.57547164, a: 1}
     - _DiffusionProfileAsset: {r: 5.7156643e+16, g: 7.553821e-17, b: 6360332.5, a: -3.7853262}
+    - _Diffusion_Profile_Asset: {r: 1.1126425e+27, g: -0.00000014547754, b: 8.520118e-30, a: 7.708028e-15}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColorUI: {r: 0, g: 0, b: 0, a: 1}
@@ -434,3 +442,4 @@ Material:
     - _uvThreadMask: {r: 1, g: 0, b: 0, a: 0}
     - _uvThreadST: {r: 150, g: 150, b: 0, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
